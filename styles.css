@@ -24,7 +24,7 @@ img {
   width: 50%;
 }
 
-/* The fonts */
+/* The side shit */
 @font-face{
     font-family: Maintext;
      src: url(fnt_1.ttf);
@@ -33,4 +33,19 @@ img {
 @font-face{
     font-family: Titletext;
      src: url(fnt_2.ttf);
+}
+
+.row {
+  display: flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
