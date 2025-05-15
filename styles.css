@@ -18,6 +18,12 @@ h1{
   font-size: 53;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 /* The fonts */
 @font-face{
     font-family: Maintext;
