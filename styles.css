@@ -1,0 +1,30 @@
+/* Main */
+body{
+    background-image: url(bg.png);
+ background-color: #0000;
+}
+
+div{
+  font-family: Maintext;
+  color: white;
+  text-align: center; 
+  font-size: 32;   
+}
+
+h1{
+  font-family: Titletext;
+  color: white;
+  text-align: center;  
+  font-size: 53;
+}
+
+/* The fonts */
+@font-face{
+    font-family: Maintext;
+     src: url(fnt_1.ttf);
+}
+
+@font-face{
+    font-family: Titletext;
+     src: url(fnt_2.ttf);
+}
