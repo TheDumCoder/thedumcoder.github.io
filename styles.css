@@ -1,8 +1,23 @@
 /* Main */
 body{
     background-image: url(bg.png);
- background-color: #0000;
+    background-color: #0000;
+    background-repeat: repeat;
+    animation: scrollBackground 120s linear infinite;
 }
+
+@keyframes scrollBackground
+  {
+    0%
+      {
+        background-position: 0 0;
+      }
+      100%
+      {
+        background-position: 600px 600px;
+      }
+  }
+    
 
 div{
   font-family: Maintext;
